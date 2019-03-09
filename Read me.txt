@@ -1,0 +1,19 @@
+***********This project desigined by Sai Prasad***************
+***********Twitter profile: Saiiavon**************************
+
+
+This GPS Vehicle theft detection system detects the Vehicle theft then 
+it activates the Tracking System. Then a text SMS sends to the owner of 
+the vehicle using GSM and Arduino.
+
+ 
+This system theft detects in two ways :
+1. If Invalid access to the vehicle ignition key then system treats it as 
+vehicle theft and immediately turns on the buzzer periodically and sends 
+text SMS(containing location link) to the user using GPS and if the owner 
+sends msg 'STOP'  then immediately engine will shut down.
+
+2. If the unknown person has taken the vehicle through the cargo then based 
+on the movement of the vehicle using ADXL sensor or a tilt sensor the system 
+treats it as a theft and immediately turns on the buzzer and sends text 
+SMS(containing location link) to the user using GPS.
